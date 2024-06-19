@@ -1,0 +1,14 @@
+// plop-templates/reactComponent.hbs
+import React from 'react';
+import './style.css'; // Import the CSS file
+
+const {{properCase name}} = ({ /* your props */ }) => {
+  return (
+    <div className="{{dashCase name}}">
+      {/* Your component content goes here */}
+      Hello, I am the {{properCase name}} component!
+    </div>
+  );
+};
+
+export default {{properCase name}};
